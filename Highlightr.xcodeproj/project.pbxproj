@@ -179,6 +179,7 @@
 		8CD1AE201F39171B000FDA02 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1ADCF1F39126B000FDA02 /* HTMLUtils.swift */; };
 		8CD1AE211F39171B000FDA02 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1ADD01F39126B000FDA02 /* Theme.swift */; };
 		8CD1AE241F39172D000FDA02 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1ADDC1F3912F2000FDA02 /* highlight.min.js */; };
+		BD4A5FEE231C9E99007B6AB1 /* HighlightrUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A5FED231C9E99007B6AB1 /* HighlightrUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,6 +275,7 @@
 		8CD1AE181F391713000FDA02 /* Highlightr-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Highlightr-macOS.h"; sourceTree = "<group>"; };
 		8CD1AE191F391713000FDA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD1AE261F391802000FDA02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD4A5FED231C9E99007B6AB1 /* HighlightrUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightrUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +326,7 @@
 				8CD1ADCE1F39126B000FDA02 /* Highlightr.swift */,
 				8CD1ADCF1F39126B000FDA02 /* HTMLUtils.swift */,
 				8CD1ADD01F39126B000FDA02 /* Theme.swift */,
+				BD4A5FED231C9E99007B6AB1 /* HighlightrUserDefaults.swift */,
 			);
 			path = Highlightr;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8C2FB1B81F39118F00469D0D;
@@ -720,6 +724,7 @@
 			files = (
 				8CD1ADD11F39126B000FDA02 /* CodeAttributedString.swift in Sources */,
 				8CD1ADD41F39126B000FDA02 /* Theme.swift in Sources */,
+				BD4A5FEE231C9E99007B6AB1 /* HighlightrUserDefaults.swift in Sources */,
 				8CD1ADD31F39126B000FDA02 /* HTMLUtils.swift in Sources */,
 				5662696320D94F9F00BEEE01 /* Shims.swift in Sources */,
 				8CD1ADD21F39126B000FDA02 /* Highlightr.swift in Sources */,
